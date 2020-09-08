@@ -34,7 +34,7 @@ return (
         <Container fluid style = {styles}>
         <br />
         <br />
-        <h1>&lt;PROFILE/&gt;</h1>
+        <h1>&lt;PROFILE: MARK GAUNT/&gt;</h1>
         <br />        
         <div style ={stylesFour}>
         <br/>
@@ -43,6 +43,9 @@ return (
         <h5>Joined The Developer Academy in Feb 2020, as a member of their newly established coding bootcamp, and the objective now is to make the transition from IT recruiter to IT developer!</h5>
         <br/>
         <h5>Coding tech stack covers: HTML, CSS, Bootstrap, Javascript, MERN Stack (React, Express, Node.JS, MongoDB, Mongoose) and some basic Python.</h5>
+        <div>
+        
+        </div>
         </div>
         <br /> 
         <br />

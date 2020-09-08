@@ -61,13 +61,13 @@ export function MyComponentCV(){
     <h5>Personal Details</h5>
     <p>Name:<br/>Mark Leslie Gaunt</p>
     <p>Address:<br/>5 St Andrews Close<br/>Rodley<br/>Leeds<br/>LS13 1JE</p>
-    <p><a href = "mailto: marklgaunt@googlemail.com">Send me an email</a></p>
-    <p><a href="https://www.linkedin.com/in/mark-gaunt/">Check out my Linkedin profile</a></p>
+    <p><a href = "mailto: marklgaunt@googlemail.com">Email me</a></p>
+    <p><a href="https://www.linkedin.com/in/mark-gaunt/">Connect on Linkedin</a></p>
     <p>Car driver/owner</p>
     </div> 
     <br/>
     <div>
-      <Button variant="success" onClick={refreshPage}>Click to close CV section</Button>
+      <Button variant="success" onClick={refreshPage}>Close Window</Button>
     </div>
     </div>
   }
@@ -88,7 +88,7 @@ export function MyComponentCV(){
     </div>
     <br/>
     <div>
-      <Button variant="success" onClick={refreshPage}>Click to close CV section</Button>
+      <Button variant="success" onClick={refreshPage}>Close Window</Button>
     </div>
     </div>
   }
@@ -118,7 +118,7 @@ export function MyComponentCV(){
     </div>
     
     <div>
-      <Button variant="success" onClick={refreshPage}>Click to close CV section</Button>
+      <Button variant="success" onClick={refreshPage}>Close Window</Button>
     </div>
 
     </div>
@@ -145,7 +145,7 @@ return (
       <Dropdown.Item href="#/action-1" onSelect={handleSelect} >Personal Details</Dropdown.Item>
       <Dropdown.Item href="#/action-2"onSelect={handleSelect2} >Education/Training</Dropdown.Item>
       <Dropdown.Item href="#/action-3" onSelect={handleSelect3} >Employment</Dropdown.Item>
-      <Dropdown.Item href="#/action-3" onClick={refreshPage}>Close</Dropdown.Item>
+      <Dropdown.Item href="#/action-3" onClick={refreshPage}>Close Window</Dropdown.Item>
     </Dropdown.Menu>
   </Dropdown>
   <br/>
