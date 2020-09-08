@@ -8,7 +8,7 @@ import image from './portfolio.jpg';
 
 const styles = {
     width: '100%',
-    height: '1400px',
+    height: '1600px',
     color: 'white',
     margin: '0',
     backgroundImage: 'url('+image+')',
@@ -18,7 +18,7 @@ const styles = {
 
     const stylesTwo = {
       width: '100%',
-      height: '1000px',
+      height: '1200px',
       color: 'grey',
       margin: '0',
       backgroundColor: 'black',
