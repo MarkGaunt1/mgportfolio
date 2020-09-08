@@ -97,7 +97,7 @@ export function MyComponentCV(){
     return <div style ={stylesTwo}>
     <h5>Employment</h5>
     <br/>
-    <div style={{textAlign: "left",margin: "20px"}}>
+    <div style={{textAlign: "left"}}>
     <p>June 06 - Date<br/>Strawberry Recruitment Solutions Ltd</p>
     <p>Strawberry Recruitment provides a UK wide recruitment service helping our clients and candidates to find the best solution for them.</p>
     <p>Our recruitment service mainly focuses on the following key sectors:</p>
@@ -105,16 +105,12 @@ export function MyComponentCV(){
     <p>I have been responsible for the strategic management of a recruitment team, consisting of a Senior Recruitment Consultant and a number of Recruitment Consultants and Resourcers. My main duties and responsibilities have included:<br/>To drive KPIs and sales in order to achieve business objectives/targets.<br/>
     Ability to manage operations within budgetary constraints.<br/>
     Creating, managing and analyzing performance data and other information.<br/>
-    Arranging and chairing team meetings to discuss strategy<br/>
     Recruit staff, oversee their induction, appraisals and trainings.<br/>
-    Performance management.<br/>
     Meeting with clients to discuss potential recruitment needs and negotiating rates, contracts etc.<br/>
-    Account management<br/>
     Sourcing suitable candidates for client vacancies using a variety of different sources – internet job boards, company website, newspaper advertising and conferences/exhibitions.<br/>
     Thorough screening of candidates to ascertain suitability.<br/>
     Arranging candidate interviews and discussing offers of employment, rejections, etc.<br/>
-    Selecting different advertising media, negotiating advertising costs, designing advertising copy and job board maintenance.<br/>
-    To drive KPIs and sales in order to achieve business objectives/targets.</p>
+    Selecting different advertising media, negotiating advertising costs, designing advertising copy and job board maintenance.<br/></p>
     </div>
     
     <div>
