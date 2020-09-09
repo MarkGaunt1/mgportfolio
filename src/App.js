@@ -9,10 +9,12 @@ import './App.css';
 import { MyComponentHome} from './MyComponentHome';
 import { MyComponentObjective} from './MyComponentObjective';
 import { MyComponentCV} from './MyComponentCV';
+import { MyComponentContact} from './MyComponentContact';
+
 
 const navStyles = {
   width: '100%',
-  height: '100px',
+  height: '120px',
   color: 'white',
   
   backgroundColor: 'black',
@@ -44,7 +46,10 @@ function App() {
               <Link style={{color: "white"}} to="/objective">Objective</Link>
             </li>
             <li>
-              <Link style={{color: "white"}} to="/curriculumvitae">Curriculum Viate</Link>
+              <Link style={{color: "white"}} to="/curriculumvitae">Curriculum Vitae</Link>
+            </li>
+            <li>
+              <Link style={{color: "white"}} to="/contactme">Contact Me</Link>
             </li>
           </ul>
         </nav>
@@ -57,6 +62,9 @@ function App() {
           </Route>
           <Route path="/curriculumvitae">
             <MyComponentCV />
+          </Route>
+          <Route path="/contactme">
+            <MyComponentContact />
           </Route>
           <Route path="/">
             <MyComponentHome />
