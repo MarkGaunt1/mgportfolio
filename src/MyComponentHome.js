@@ -4,7 +4,7 @@ import image from './portfolio.jpg'
 
 const styles = {
     width: '100%',
-    height: '1000px',
+    height: '100%',
     color: 'white',
     margin: '0',
     backgroundImage: 'url('+image+')',
@@ -14,7 +14,7 @@ const styles = {
 
     const stylesFour = {
         width: '100%',
-        height: '60%',
+        height: '100%',
         color: 'grey',
         margin: '0',
         backgroundColor: 'black',

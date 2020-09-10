@@ -38,15 +38,7 @@ export function MyComponentCV(){
   const [personal, setPersonal] = useState();
   const handleSelect = () => setPersonal(personalDetails)
 
-  const [education, setEducation] = useState();
-  const handleSelect2 = () => setEducation(educationInfo)
-
  
-  const [employment, setEmployment] = useState();
-  const handleSelect3 = () => setEmployment(myEmploy)
-
- 
-  
   function refreshPage() {
     window.location.reload(false);
   }
@@ -55,7 +47,7 @@ export function MyComponentCV(){
   function personalDetails() {
     return <div style ={stylesTwo}>
     <br/>
-    <div>        
+    <div>         
     <h5>CURRICULUM VITAE - Mark Gaunt DipRP</h5>
     <br />
     <p>A DipRP qualified recruitment director/manager with extensive 360 recruitment experience – mainly covering the IT and FE/work-based learning sectors.Joined The Developer Academy in Feb 2020, as a member of their newly established coding bootcamp, and the objective now is to make the transition from IT recruiter to IT developer! Coding tech stack covers: HTML, CSS, Bootstrap, Javascript, MERN Stack (React, Express, Node.JS, MongoDB, Mongoose) and some basic Python.</p>
@@ -69,15 +61,6 @@ export function MyComponentCV(){
     <p>Car driver/owner</p>
     </div> 
     <br/>
-    <div>
-      <Button variant="success" onClick={refreshPage}>Close Window</Button>
-    </div>
-    </div>
-  }
- 
-  function educationInfo() {
-    return <div style ={stylesTwo}>
-    <br/>
     <div>        
     <h5>Education/Training</h5>
     <p>9 GCSEs:<br/>3 A'Levels</p>
@@ -90,16 +73,6 @@ export function MyComponentCV(){
     This is not an accredited course, but instead tailored to create work-ready graduates skilled in the technical expertise employers are actually seeking.</p>
     </div>
     <br/>
-    <div>
-      <Button variant="success" onClick={refreshPage}>Close Window</Button>
-    </div>
-    </div>
-  }
- 
-
-  
-  function myEmploy() {
-    return <div style ={stylesTwo}>
     <h5>Employment</h5>
     <br/>
     <div style={{textAlign: "left"}}>
@@ -117,14 +90,21 @@ export function MyComponentCV(){
     Arranging candidate interviews and discussing offers of employment, rejections, etc.<br/>
     Selecting different advertising media, negotiating advertising costs, designing advertising copy and job board maintenance.<br/></p>
     </div>
-    
+    <br/>
+    <div>
+    <h5>Earlier employment history and references available upon request</h5>
+    </div> 
+    <br/>
     <div>
       <Button variant="success" onClick={refreshPage}>Close Window</Button>
     </div>
-
-    </div>
+</div>
   }
+ 
+  
+ 
 
+  
     
    
 
@@ -135,22 +115,20 @@ return (
   <br />
   <h1>&lt;Curriculum Vitae/&gt;</h1>
   <br />      
-  <h5>Please click below for CV section:</h5>  
+  <h5>Please click below to browse my CV:</h5>  
   <br/>
   <Dropdown>
     <Dropdown.Toggle variant="success" id="dropdown-basic">
-      CV Section
+      CV
     </Dropdown.Toggle> 
     <Dropdown.Menu>
-      <Dropdown.Item href="#/action-1" onSelect={handleSelect} >Personal Details</Dropdown.Item>
-      <Dropdown.Item href="#/action-2" onSelect={handleSelect2} >Education/Training</Dropdown.Item>
-      <Dropdown.Item href="#/action-3" onSelect={handleSelect3} >Employment</Dropdown.Item>
+      <Dropdown.Item href="#/action-1" onSelect={handleSelect} >Open CV (Sep 2020)</Dropdown.Item>
       <Dropdown.Item href="#/action-3" onClick={refreshPage}>Close Window</Dropdown.Item>
     </Dropdown.Menu>
   </Dropdown>
   <br/>
   
-  {personal} {education} {employment}
+  {personal}
 
   
   
