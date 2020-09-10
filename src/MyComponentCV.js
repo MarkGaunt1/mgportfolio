@@ -18,11 +18,12 @@ const styles = {
 
     const stylesTwo = {
       width: '100%',
-      height: '1200px',
+      height: '800px',
       color: 'grey',
       margin: '0',
       backgroundColor: 'black',
       backgroundSize: 'contain',
+      overflowY: 'scroll',
       padding: '20px'
         
       };
@@ -32,7 +33,7 @@ const styles = {
 
 export function MyComponentCV(){
 
- 
+
 
   const [personal, setPersonal] = useState();
   const handleSelect = () => setPersonal(personalDetails)
@@ -40,9 +41,11 @@ export function MyComponentCV(){
   const [education, setEducation] = useState();
   const handleSelect2 = () => setEducation(educationInfo)
 
+ 
   const [employment, setEmployment] = useState();
   const handleSelect3 = () => setEmployment(myEmploy)
 
+ 
   
   function refreshPage() {
     window.location.reload(false);
@@ -93,6 +96,8 @@ export function MyComponentCV(){
     </div>
   }
  
+
+  
   function myEmploy() {
     return <div style ={stylesTwo}>
     <h5>Employment</h5>
@@ -119,10 +124,9 @@ export function MyComponentCV(){
 
     </div>
   }
-  
 
-
-  
+    
+   
 
 return (
   <div>
@@ -139,7 +143,7 @@ return (
     </Dropdown.Toggle> 
     <Dropdown.Menu>
       <Dropdown.Item href="#/action-1" onSelect={handleSelect} >Personal Details</Dropdown.Item>
-      <Dropdown.Item href="#/action-2"onSelect={handleSelect2} >Education/Training</Dropdown.Item>
+      <Dropdown.Item href="#/action-2" onSelect={handleSelect2} >Education/Training</Dropdown.Item>
       <Dropdown.Item href="#/action-3" onSelect={handleSelect3} >Employment</Dropdown.Item>
       <Dropdown.Item href="#/action-3" onClick={refreshPage}>Close Window</Dropdown.Item>
     </Dropdown.Menu>
@@ -147,6 +151,8 @@ return (
   <br/>
   
   {personal} {education} {employment}
+
+  
   
   </Container>      
   
