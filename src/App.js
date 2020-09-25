@@ -9,12 +9,15 @@ import './App.css';
 import { MyComponentHome} from './MyComponentHome';
 import { MyComponentObjective} from './MyComponentObjective';
 import { MyComponentCV} from './MyComponentCV';
+import { MyComponentProjects} from './MyComponentProjects';
 import { MyComponentContact} from './MyComponentContact';
+
+
 
 
 const navStyles = {
   width: '100%',
-  height: '120px',
+  height: '100px',
   color: 'white',
   
   backgroundColor: 'black',
@@ -38,20 +41,20 @@ function App() {
       <Router>
       <div>
         <nav style = {navStyles} >
-          <ul>
-            <li>
-              <Link style={{color: "white"}} to="/">Profile</Link>
-            </li>
-            <li>
-              <Link style={{color: "white"}} to="/objective">Objective</Link>
-            </li>
-            <li>
-              <Link style={{color: "white"}} to="/curriculumvitae">Curriculum Vitae</Link>
-            </li>
-            <li>
-              <Link style={{color: "white"}} to="/contactme">Contact Me</Link>
-            </li>
-          </ul>
+          <br/>
+          
+            
+              <Link style={{color: "white", marginRight: '15px'}} to="/">Profile</Link>
+            
+              <Link style={{color: "white", marginRight: '15px'}} to="/objective">Objective</Link>
+            
+              <Link style={{color: "white", marginRight: '15px'}} to="/curriculumvitae">Curriculum Vitae</Link>
+           
+              <Link style={{color: "white", marginRight: '15px'}} to="/projects">My Projects</Link>
+            
+              <Link style={{color: "white", marginRight: '15px'}} to="/contactme">Contact Me</Link>
+            
+          
         </nav>
 
         {/* A <Switch> looks through its children <Route>s and
@@ -62,6 +65,9 @@ function App() {
           </Route>
           <Route path="/curriculumvitae">
             <MyComponentCV />
+          </Route>
+          <Route path="/projects">
+            <MyComponentProjects />
           </Route>
           <Route path="/contactme">
             <MyComponentContact />

@@ -12,7 +12,7 @@ const styles = {
     color: 'white',
     margin: '0',
     backgroundImage: 'url('+image+')',
-    backgroundSize: 'contain'
+    backgroundSize: 'cover'
       
     };
 
