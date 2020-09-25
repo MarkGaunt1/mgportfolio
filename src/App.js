@@ -48,11 +48,11 @@ function App() {
             
               <Link style={{color: "white", marginRight: '15px'}} to="/objective">Objective</Link>
             
-              <Link style={{color: "white", marginRight: '15px'}} to="/curriculumvitae">Curriculum Vitae</Link>
+              <Link style={{color: "white", marginRight: '15px'}} to="/curriculumvitae">CV</Link>
            
-              <Link style={{color: "white", marginRight: '15px'}} to="/projects">My Projects</Link>
+              <Link style={{color: "white", marginRight: '15px'}} to="/projects">Projects</Link>
             
-              <Link style={{color: "white", marginRight: '15px'}} to="/contactme">Contact Me</Link>
+              <Link style={{color: "white", marginRight: '15px'}} to="/contactme">Contact</Link>
             
           
         </nav>

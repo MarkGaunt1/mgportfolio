@@ -26,7 +26,7 @@ const styles = {
     };
 
     const stylesTwo = {
-      width: '50%',
+      width: '90%',
       height: '800px',
       color: 'grey',
       margin: '0',
@@ -57,7 +57,7 @@ export function MyComponentProjects(){
     return <div style ={stylesTwo}>
     <br/>
     <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>         
-    <Card style={{ color: 'white', backgroundImage: 'url('+imageFour+')', width: '18rem' }}>
+    <Card style={{ color: 'white', backgroundImage: 'url('+imageFour+')', width: '90%' }}>
   <Card.Img  />
   <Card.Body>
     <Card.Title>Job Board App</Card.Title>
@@ -70,7 +70,7 @@ export function MyComponentProjects(){
     </div> 
     <br/>
     <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>         
-    <Card style={{ color: 'black', fontWeight: 'bold', backgroundImage: 'url('+imageTwo+')',width: '18rem' }}>
+    <Card style={{ color: 'black', fontWeight: 'bold', backgroundImage: 'url('+imageTwo+')',width: '90%' }}>
   <Card.Img  />
   <Card.Body>
     <Card.Title>Inventory (Icecream Co) App</Card.Title>
@@ -83,7 +83,7 @@ export function MyComponentProjects(){
     </div> 
     <br/>
     <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>         
-    <Card style={{ color: 'white', backgroundImage: 'url('+imageThree+')', width: '18rem' }}>
+    <Card style={{ color: 'white', backgroundImage: 'url('+imageThree+')', width: '90%' }}>
   <Card.Img />
   <Card.Body>
     <Card.Title>Weather App</Card.Title>
@@ -96,7 +96,7 @@ export function MyComponentProjects(){
     </div> 
     <br/>
     <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>         
-    <Card style={{ color: 'white', backgroundImage: 'url('+image+')', width: '18rem' }}>
+    <Card style={{ color: 'white', backgroundImage: 'url('+image+')', width: '90%' }}>
   <Card.Img  />
   <Card.Body>
     <Card.Title>Portfolio App!</Card.Title>
