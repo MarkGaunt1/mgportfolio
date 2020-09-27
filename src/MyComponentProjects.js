@@ -141,9 +141,9 @@ return (
   </Dropdown>
   <br/>
   
-  <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+ 
   {projects}
-  </div>
+  
 
   
   
