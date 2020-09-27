@@ -27,7 +27,7 @@ const styles = {
 
     const stylesTwo = {
       width: '90%',
-      height: '50%',
+      height: '40%',
       color: 'grey',
       margin: '0',
       backgroundColor: 'black',
