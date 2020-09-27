@@ -4,21 +4,22 @@ import image from './portfolio.jpg'
 
 const styles = {
     width: '100%',
-    height: '100%',
+    height: '1000px',
     color: 'white',
     margin: '0',
     backgroundImage: 'url('+image+')',
-    backgroundSize: 'contain'
+    backgroundSize: 'auto'
       
     };
 
     const stylesThree = {
       width: '100%',
-      height: '100%',
+      height: '60%',
       color: 'grey',
       margin: '0',
       backgroundColor: 'black',
       backgroundSize: 'contain',
+      overflowY: 'scroll',
       padding: '20px'
         
       };

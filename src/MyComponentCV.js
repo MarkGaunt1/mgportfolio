@@ -12,13 +12,13 @@ const styles = {
     color: 'white',
     margin: '0',
     backgroundImage: 'url('+image+')',
-    backgroundSize: 'cover'
+    backgroundSize: 'auto'
       
     };
 
     const stylesTwo = {
       width: '100%',
-      height: '800px',
+      height: '60%',
       color: 'grey',
       margin: '0',
       backgroundColor: 'black',
