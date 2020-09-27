@@ -41,7 +41,8 @@ return (
         <h5>Name:<br/>Mark Leslie Gaunt</h5>
         <h5>Address:<br/>5 St Andrews Close<br/>Rodley<br/>Leeds<br/>LS13 1JE</h5>
         <h5><a href = "mailto: marklgaunt@googlemail.com">Email me</a></h5>
-        <h5><a href="https://www.linkedin.com/in/mark-gaunt/">Connect on Linkedin</a></h5>
+        <h5><a href="https://www.linkedin.com/in/mark-gaunt/" target="_blank" rel="noopener noreferrer">Connect on Linkedin</a></h5>
+        <h5><a href = "https://github.com/MarkGaunt1" target="_blank" rel="noopener noreferrer">View project source code on GitHub</a></h5>
         
         </div>
         
