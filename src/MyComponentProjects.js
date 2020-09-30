@@ -83,7 +83,7 @@ export function MyComponentProjects(){
     </div> 
     <br/>
     <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>         
-    <Card style={{ color: 'white', backgroundImage: 'url('+imageThree+')', width: '90%' }}>
+    <Card style={{ color: 'white', backgroundImage: 'url('+imageThree+')', width: '90%', backgroundSize: 'cover' }}>
   <Card.Img />
   <Card.Body>
     <Card.Title>Weather App</Card.Title>
